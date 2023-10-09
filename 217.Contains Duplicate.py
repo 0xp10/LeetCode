@@ -34,6 +34,7 @@ def containsDuplicate(nums:list)-> bool:
 
 print(containsDuplicate([1,1]))
 
+# Second soulution
 def containsDuplicate(nums:list)-> bool:
     return len(nums) != len(set(nums))
 
